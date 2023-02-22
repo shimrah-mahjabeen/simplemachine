@@ -1,0 +1,4 @@
+order_completed:
+  cron: "* * * * *"
+  class: "OrdersCompletionJob"
+  queue: default
